@@ -1,0 +1,24 @@
+/* playlist */
+/* mood */
+
+.imp1{ /*24*/
+    margin-left: 0px!important;
+}
+.imp2{ /*315*/
+    left: var(--swiper-navigation-sides-offset, 1270px)!important;
+}
+.imp2, .imp3{ /*270*/
+    top: var(--swiper-navigation-top-offset, 40%);
+}
+
+
+/* genre */
+.imp4{ /*24*/
+    margin-right: 0px!important;
+}
+.imp6{ /*326*/
+    right: var(--swiper-navigation-sides-offset, 1270px)!important;
+}
+.imp5, .imp6{ /*270*/
+    top: var(--swiper-navigation-top-offset, 40%);
+}

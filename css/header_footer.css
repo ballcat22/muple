@@ -1,0 +1,177 @@
+/* header */
+/* mainbanner header */
+#main_banner {
+    height: 1080px;
+    position: relative;
+    overflow: hidden;
+}
+
+#main_banner_bg {
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    top: 0;
+    z-index: 1;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 150px;
+    z-index: 99;
+}
+
+.inner_header {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+#header:hover {
+    background-color: #000;
+}
+
+/* scroll했을때, 바뀌는 꾸미기 내용 */
+.header_scroll {
+    background-color: #000;
+}
+
+.logo {
+    float: left;
+    margin-right: 13px;
+    padding-top: 31px;
+}
+
+.logo a {
+    display: block;
+    width: 98px;
+    height: 88px;
+    background-image: url(../images/logo.svg);
+    transition: all 0.3s;
+}
+
+.logo a:hover {
+    animation: ani 0.5s;
+    background: url(../images/logo_hover.svg);
+}
+
+/* logo animation */
+@keyframes ani {
+    0% {
+        background: url(../images/logo.svg);
+    }
+
+    25% {
+        background: url(../images/logo_hover.svg);
+        transform: scale(1.15);
+    }
+
+    50% {
+        background: url(../images/logo_hover.svg);
+        transform: scale(1);
+    }
+
+    75% {
+        background: url(../images/logo_hover.svg);
+        transform: scale(1.15);
+    }
+
+    100% {
+        background: url(../images/logo_hover.svg);
+        transform: scale(1);
+    }
+}
+
+.gnb {
+    float: left;
+    padding-top: 63px;
+}
+
+.gnb li {
+    float: left;
+    width: 209px;
+    margin-right: 13px;
+    text-align: center;
+}
+
+.gnb li a {
+    display: block;
+    font-family: 'Nulshock', sans-serif;
+    font-size: 20px;
+    padding-bottom: 63px;
+}
+
+.gnb li a:hover {
+    color: #d44581;
+}
+
+.on{
+    color: #d44581;
+}
+
+.search {
+    float: left;
+    width: 98px;
+    padding-top: 59px;
+}
+
+.search a {
+    text-align: center;
+    display: block;
+
+}
+
+
+
+
+/* footer */
+#footer {
+    height: 200px;
+    background: url(../images/footer_bg.png) no-repeat center;
+}
+
+.inner_footer {
+    width: 1320px;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+
+.footer_logo {
+    float: left;
+    margin-right: 124px;
+}
+
+.footer_text {
+    float: left;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.inner_footer ul li {
+    float: left;
+}
+
+.inner_footer ul li a {
+    margin-right: 20px;
+}
+
+.info {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.sns {
+    float: right;
+    margin-top: 30px;
+}
+
+.sns li a img {
+    opacity: 0.5;
+}
+
+.sns li a img:hover {
+    opacity: 1;
+}
