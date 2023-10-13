@@ -11,9 +11,11 @@
     <link href="https://fonts.cdnfonts.com/css/nulshock" rel="stylesheet">
     <!-- css -->
     <link rel="stylesheet" href="../css/header_footer.css">
-    <link rel="stylesheet" href="../css/sub_about_style.css">
+    <link rel="stylesheet" href="../css/sub_about.css">
     <!-- jQ 기본소스 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -21,7 +23,7 @@
         <div id="main_banner"> <!--main_banner s-->
             <div id="main_banner_bg"> <!--가운데 보내는 포지션-->
                 <img src="../images/sub_about/about_banner.png" alt="banner">
-                <div class="banner_text">
+                <div class="banner_text" data-aos="fade-up">
                     <h1><span>MUPLE</span></h1>
                     <h3><span>MUSIC PEOPLE,
                             <br>MUSIC PLAYER</span></h3>
@@ -30,17 +32,17 @@
             <div id="header" class="header_s"> <!-- 위로 올리는 포지션 -->
                 <div class="inner_header">
                     <h1 class="logo">
-                        <a href="#"></a>
+                        <a href="../index.html"></a>
                     </h1>
                     <ul class="gnb">
                         <li><a href="#">MUSIC</a></li>
                         <li><a href="#">MAGAZINE</a></li>
                         <li><a href="#">FESTIVAL</a></li>
-                        <li><a href="#">GOODS</a></li>
-                        <li><a class="on" href="#">ABOUT</a></li>
+                        <li><a href="./sub_goods.html">GOODS</a></li>
+                        <li><a class="on" href="./sub_about.html">ABOUT</a></li>
                     </ul>
                     <h1 class="search">
-                        <a href="#"><img src="..//images/search_icon.png" alt="search_icon"></a>
+                        <a href="#"><img src="../images/search_icon.png" alt="search_icon"></a>
                     </h1>
                 </div>
             </div>
@@ -48,10 +50,10 @@
 
         <div id="brand_logo"> <!--brand_logo s-->
             <h2 class="section_name"><span>BRAND LOGO</span></h2>
-            <div class="main_logo">
-                <div class="img_wrap">
+            <div class="main_logo" data-aos="fade-down"  data-aos-duration="800">
+                <div class="img_wrap" data-aos="fade-down"  data-aos-duration="800" data-aos-delay="200">
                 </div>
-                <div class="text_wrap">
+                <div class="text_wrap" data-aos="fade-down"  data-aos-duration="800" data-aos-delay="350">
                     <h3>♡</h3>
                     <p>하트 형태로 심장 박동을 형상화하였습니다.
                         <br>뮤플은 음악을 사랑하는 마음을 담아
@@ -64,11 +66,11 @@
                 </div>
             </div>
             <ul class="logo_version">
-                <li><img src="../images/sub_about/logo_simple.png" alt="simple"></li>
-                <li><img src="../images/sub_about/line.png" alt="line"></li>
-                <li><img src="../images/sub_about/logo_basic.png" alt="basic"></li>
-                <li><img src="../images/sub_about/line.png" alt="line"></li>
-                <li><img src="../images/sub_about/logo_dynamic.png" alt="dynamic"></li>
+                <li data-aos="fade-right"  data-aos-duration="800" data-aos-delay="200"><img src="../images/sub_about/logo_simple.png" alt="simple"></li>
+                <li data-aos="fade-down"  data-aos-duration="800"><img src="../images/sub_about/line.png" alt="line"></li>
+                <li data-aos="fade-down"  data-aos-duration="800" data-aos-delay="400"><img src="../images/sub_about/logo_basic.png" alt="basic"></li>
+                <li data-aos="fade-down"  data-aos-duration="800"><img src="../images/sub_about/line.png" alt="line"></li>
+                <li data-aos="fade-left"  data-aos-duration="800" data-aos-delay="600"><img src="../images/sub_about/logo_dynamic.png" alt="dynamic"></li>
             </ul>
         </div> <!--brand_logo f-->
 
@@ -79,7 +81,7 @@
                     <div class="pic_wrap">
                         <img src="../images/sub_about/muple1.png" alt="pic">
                     </div>
-                    <div class="name_text">
+                    <div class="name_text" data-aos="fade-right"  data-aos-duration="800"  data-aos-delay="300">
                         <h3><span>MUSIC PLAYER</span></h3>
                         <p>MUPLE은 MUSIC + PLAYER의 뜻을 담고 있습니다.
                             <br>음악을 사랑하고 즐기는 사람들을 위해
@@ -98,7 +100,7 @@
                     </div>
                 </div>
                 <div class="name name3">
-                    <div class="name_text">
+                    <div class="name_text" data-aos="fade-left"  data-aos-duration="800">
                         <h3><span>MUSIC PEOPLE</span></h3>
                         <p>MUPLE은 MUSIC + PEOPLE의 합성어로,
                             <br>음악을 듣고 즐기는 사람들을 위해 제작되었습니다.
@@ -119,26 +121,59 @@
 
         <div id="brand_concept">
             <h2 class="section_name"><span>BRAND CONCEPT</span></h2>
-            <h3><span>"BRING MUSIC TO LIFE!"</span></h3>
-            <p>뮤플은 단순한 스트리밍을 넘어서 다양한 음악 컨텐츠를 한 데 모아 즐길 수 있는 플랫폼입니다.
+            <h3 data-aos="fade-down"  data-aos-duration="800"><span>"BRING MUSIC TO LIFE!"</span></h3>
+            <p data-aos="fade-down"  data-aos-duration="800" data-aos-delay="200">뮤플은 단순한 스트리밍을 넘어서 다양한 음악 컨텐츠를 한 데 모아 즐길 수 있는 플랫폼입니다.
                 <br>스트리밍 / 매거진 / 페스티벌 / 굿즈, 관심사에 따라
                 <br>일상 속 언제 어디에서나 음악을 사랑하는 사람들과 함께, 뮤플과 함께 할 수 있습니다.
             </p>
-            <div class="box"> <!--position_r-->
+            <div class="box" data-aos="fade-zoom-in" data-aos-duration="800" data-aos-delay="500"> <!--position_r-->
                 <div class="center_logo">
                     <img src="../images/sub_about/center_logo.png" alt="logo">
                 </div>
-                <div class="concept1 "></div>
-                <div class="concept1 hover1"></div>
-                <div class="concept2"></div>
-                <div class="concept2_hover"></div>
-                <div class="concept3"></div>
-                <div class="concept3_hover"></div>
-                <div class="concept4"></div>
-                <div class="concept4_hover"></div>
+                <a href="#">
+                    <div class="concept1"></div>
+                    <div class="concept1 hover1"></div>
+                </a>
+                <a href="#">
+                    <div class="concept2"></div>
+                    <div class="concept2 hover2"></div>
+                </a>
+                <a href="#">
+                    <div class="concept3"></div>
+                    <div class="concept3 hover3"></div>
+                </a>
+                <a href="#">
+                    <div class="concept4"></div>
+                    <div class="concept4 hover4"></div>
+                </a>
             </div>
         </div>
 
+        <div id="footer"> <!--footer s-->
+            <div class="inner_footer">
+                <div class="footer_logo">
+                    <a href="#"> <img src="../images/footer_logo.svg" alt="footer_logo"></a>
+                </div>
+                <div class="footer_text">
+                    <ul class="info">
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                    <p>
+                        상호명 : (주)뮤플뮤직 | 대표 : 장유진 | 부산 중구 중앙대로
+                        <br>사업자 등록번호 : 000-00-00000 | 통신판매업 신고번호 : 2023-부산중구-0000
+                        <br>문의전화 : 1588-0000 | 이메일 : muple_info@muple.com
+                    </p>
+                </div>
+                <ul class="sns">
+                    <li><a href="#"><img src="../images/sns_facebook.png" alt="sns"></a></li>
+                    <li><a href="#"><img src="../images/sns_instar.png" alt="sns"></a></li>
+                    <li><a href="#"><img src="../images/sns_twitter.png" alt="sns"></a></li>
+                    <li><a href="#"><img src="../images/sns_youtube.png" alt="sns"></a></li>
+                </ul>
+            </div>
+        </div> <!--footer f-->
 
          <!-- js -->
          <script>
@@ -149,6 +184,11 @@
                     $('.header_s').removeClass('header_scroll')
                 }
             })
+        </script>
+        <!-- aos js -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
         </script>
 </body>
 

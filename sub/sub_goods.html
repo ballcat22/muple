@@ -11,9 +11,11 @@
     <link href="https://fonts.cdnfonts.com/css/nulshock" rel="stylesheet">
     <!-- css -->
     <link rel="stylesheet" href="../css/header_footer.css">
-    <link rel="stylesheet" href="../css/sub_goods_style.css">
+    <link rel="stylesheet" href="../css/sub_goods.css">
     <!-- jQ 기본소스 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -21,7 +23,7 @@
         <div id="main_banner"> <!--main_banner s-->
             <div id="main_banner_bg"> <!--가운데 보내는 포지션-->
                 <img src="../images/sub_goods/goods_banner.png" alt="banner">
-                <div class="banner_text">
+                <div class="banner_text" data-aos="fade-up">
                     <h1><span>GOODS</span></h1>
                     <h3><span>BRING MUSIC TO LIFE!</span></h3>
                     <p>음악과 함께 하는 삶,
@@ -34,17 +36,17 @@
             <div id="header" class="header_s"> <!-- 위로 올리는 포지션 -->
                 <div class="inner_header">
                     <h1 class="logo">
-                        <a href="#"></a>
+                        <a href="../index.html"></a>
                     </h1>
                     <ul class="gnb">
                         <li><a href="#">MUSIC</a></li>
                         <li><a href="#">MAGAZINE</a></li>
                         <li><a href="#">FESTIVAL</a></li>
-                        <li><a class="on" href="#">GOODS</a></li>
-                        <li><a href="#">ABOUT</a></li>
+                        <li><a class="on" href="./sub_goods.html">GOODS</a></li>
+                        <li><a href="./sub_about.html">ABOUT</a></li>
                     </ul>
                     <h1 class="search">
-                        <a href="#"><img src="..//images/search_icon.png" alt="search_icon"></a>
+                        <a href="#"><img src="../images/search_icon.png" alt="search_icon"></a>
                     </h1>
                 </div>
             </div>
@@ -52,42 +54,46 @@
 
         <div id="collabo_banner"> <!--collabo_banner_s-->
             <div class="inner_collabo">
-                <div class="collabo_text">
+                <div class="collabo_text" data-aos="fade-right" data-aos-duration="800">
                     <h2><span>new arrival</span></h2>
                     <h1><span>MUPLE × GQO</span>
-                       <br>콜라보 신제품 출시!</h1>
+                        <br>콜라보 신제품 출시!
+                    </h1>
                     <p>하이엔드 음향 브랜드 GQO와의 독점 콜라보레이션,
                         <br>뮤플과 함께 선보이는 특별한 컬렉션을 만나보세요.
-                        <br>감각적인 디자인과 풍성한 사운드를 선사합니다.                        
-                        <br>지금 바로 경험해 보세요!</p>
+                        <br>감각적인 디자인과 풍성한 사운드를 선사합니다.
+                        <br>지금 바로 경험해 보세요!
+                    </p>
                     <ul class="btn">
-                        <li><a href="#">사전 예약하기</a></li>
-                        <li><a href="#">오프라인 체험</a></li>
+                        <li><a href="javascript:return false;">사전 예약하기</a></li>
+                        <li><a href="javascript:return false;">오프라인 체험</a></li>
                     </ul>
                 </div>
-                <div class="collabo_goods"> <!--position relative-->
+                <div class="collabo_goods" data-aos="fade-left" data-aos-duration="800"> <!--position relative-->
                     <div class="speacker">
                         <div class="name">
-                            <p>블루투스 
-                                <br>스피커</p>
+                            <p>블루투스
+                                <br>스피커
+                            </p>
                             <div class="heart_btn">
-                                <a href="#"></a>
+                                <a href="javascript:return false;"></a>
                             </div>
                         </div>
                         <div class="img_box">
-                            <a href="#"><img src="../images/sub_goods/speaker.png" alt="speaker"></a>
+                            <a href="javascript:return false;"><img src="../images/sub_goods/speaker.png" alt="speaker"></a>
                         </div>
                     </div>
                     <div class="headset">
                         <div class="name">
-                            <p>블루투스 
-                                <br>헤드셋</p>
+                            <p>블루투스
+                                <br>헤드셋
+                            </p>
                             <div class="heart_btn">
-                                <a href="#"></a>
+                                <a href="javascript:return false;"></a>
                             </div>
                         </div>
                         <div class="img_box">
-                            <a href="#"><img src="../images/sub_goods/headset.png" alt="speaker"></a>
+                            <a href="javascript:return false;"><img src="../images/sub_goods/headset.png" alt="speaker"></a>
                         </div>
                     </div>
                 </div>
@@ -95,156 +101,159 @@
         </div> <!--collabo_banner_f-->
 
         <div id="goods"> <!--goods_s-->
-            <div class="goods_section">
-                <div class="title"> <!--높이120--->
-                    <div class="title_box living"> <!--position_r float 너비-->
-                        <p><span>living</span></p>
-                        <div class="bg"></div> <!--position_a-->
+            <div class="inner_goods">
+                <div class="goods_section">
+                    <div class="title"> <!--높이120--->
+                        <div class="title_box living"> <!--position_r float 너비-->
+                            <p><span>living</span></p>
+                            <div class="bg"></div> <!--position_a-->
+                        </div>
                     </div>
+                    <ul class="product">
+                        <li data-aos="fade-right" data-aos-duration="800" data-aos-delay="100">
+                            <div class="product_img">
+                                <a href="javascript:return false;">
+                                    <div>
+                                        <img src="../images/sub_goods/product_img1.png" alt="product">
+                                    </div>
+                                    <div class="box">
+                                        <p class="line1 line"></p>
+                                        <p class="line2 line"></p>
+                                        <p class="line3 line"></p>
+                                        <p class="line4 line"></p>
+                                    </div>
+                                </a>
+                            </div>
+    
+                            <div class="product_name">
+                                <p>레터링 머그잔</p>
+                                <div class="heart_btn"><a href="javascript:return false;"></a></div>
+                            </div>
+                        </li>
+                        <li data-aos="fade-right"  data-aos-duration="800"  data-aos-delay="300">
+                            <div class="product_img">
+                                <a href="javascript:return false;">
+                                    <div>
+                                        <img src="../images/sub_goods/product_img2.png" alt="product">
+                                    </div>
+                                    <div class="box">
+                                        <p class="line1 line"></p>
+                                        <p class="line2 line"></p>
+                                        <p class="line3 line"></p>
+                                        <p class="line4 line"></p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product_name">
+                                <p>패턴 텀블러</p>
+                                <div class="heart_btn"><a href="javascript:return false;"></a></div>
+                            </div>
+                        </li>
+                        <li data-aos="fade-right"  data-aos-duration="800" data-aos-delay="600">
+                            <div class="product_img">
+                                <a href="javascript:return false;">
+                                    <div>
+                                        <img src="../images/sub_goods/product_img3.png" alt="product">
+                                    </div>
+                                    <div class="box">
+                                        <p class="line1 line"></p>
+                                        <p class="line2 line"></p>
+                                        <p class="line3 line"></p>
+                                        <p class="line4 line"></p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product_name">
+                                <p>플레이어 에코백</p>
+                                <div class="heart_btn"><a href="javascript:return false;"></a></div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="product">
-                    <li>
-                        <div class="product_img" href="#">
-                            <a href="#">
-                                <div>
-                                    <img src="../images/sub_goods/product_img1.png" alt="product">
-                                </div>
-                                <div class="box">
-                                    <p class="line1 line"></p>
-                                    <p class="line2 line"></p>
-                                    <p class="line3 line"></p>
-                                    <p class="line4 line"></p>
-                                </div>
-                            </a>
+                <div class="goods_section">
+                    <div class="title"> <!--높이120--->
+                        <div class="title_box acc"> <!--position_r float 너비-->
+                            <p><span>accessory</span></p>
+                            <div class="bg"></div> <!--position_a-->
                         </div>
-                        
-                        <div class="product_name">
-                            <p>레터링 머그잔</p>
-                            <div class="heart_btn"><a href="#"></a></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product_img" href="#">
-                            <a href="#">
-                                <div>
-                                    <img src="../images/sub_goods/product_img2.png" alt="product">
-                                </div>
-                                <div class="box">
-                                    <p class="line1 line"></p>
-                                    <p class="line2 line"></p>
-                                    <p class="line3 line"></p>
-                                    <p class="line4 line"></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="product_name">
-                            <p>패턴 텀블러</p>
-                            <div class="heart_btn"><a href="#"></a></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product_img" href="#">
-                            <a href="#">
-                                <div>
-                                    <img src="../images/sub_goods/product_img3.png" alt="product">
-                                </div>
-                                <div class="box">
-                                    <p class="line1 line"></p>
-                                    <p class="line2 line"></p>
-                                    <p class="line3 line"></p>
-                                    <p class="line4 line"></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="product_name">
-                            <p>플레이어 에코백</p>
-                            <div class="heart_btn"><a href="#"></a></div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="goods_section">
-                <div class="title"> <!--높이120--->
-                    <div class="title_box acc"> <!--position_r float 너비-->
-                        <p><span>accessory</span></p>
-                        <div class="bg"></div> <!--position_a-->
                     </div>
+                    <ul class="product">
+                        <li data-aos="fade-left" data-aos-duration="800" data-aos-delay="600">
+                            <div class="product_img">
+                                <a href="javascript:return false;">
+                                    <div>
+                                        <img src="../images/sub_goods/product_img4.png" alt="product">
+                                    </div>
+                                    <div class="box">
+                                        <p class="line1 line"></p>
+                                        <p class="line2 line"></p>
+                                        <p class="line2 line"></p>
+                                        <p class="line3 line"></p>
+                                        <p class="line4 line"></p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product_name">
+                                <p>뮤플 마그넷</p>
+                                <div class="heart_btn"><a href="javascript:return false;"></a></div>
+                            </div>
+                        </li>
+                        <li data-aos="fade-left"  data-aos-duration="800"  data-aos-delay="300">
+                            <div class="product_img">
+                                <a href="javascript:return false;">
+                                    <div>
+                                        <img src="../images/sub_goods/product_img5.png" alt="product">
+                                    </div>
+                                    <div class="box">
+                                        <p class="line1 line"></p>
+                                        <p class="line2 line"></p>
+                                        <p class="line2 line"></p>
+                                        <p class="line3 line"></p>
+                                        <p class="line4 line"></p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product_name">
+                                <p>리버스 키링</p>
+                                <div class="heart_btn"><a href="javascript:return false;"></a></div>
+                            </div>
+                        </li>
+                        <li data-aos="fade-left"  data-aos-duration="800"  data-aos-delay="100">
+                            <div class="product_img">
+                                <a href="javascript:return false;">
+                                    <div>
+                                        <img src="../images/sub_goods/product_img6.png" alt="product">
+                                    </div>
+                                    <div class="box">
+                                        <p class="line1 line"></p>
+                                        <p class="line2 line"></p>
+                                        <p class="line2 line"></p>
+                                        <p class="line3 line"></p>
+                                        <p class="line4 line"></p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product_name">
+                                <p>브링 뮤직 폰케이스</p>
+                                <div class="heart_btn"><a href="javascript:return false;"></a></div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="product">
-                    <li>
-                        <div class="product_img" href="#">
-                            <a href="#">
-                                <div>
-                                    <img src="../images/sub_goods/product_img4.png" alt="product">
-                                </div>
-                                <div class="box">
-                                    <p class="line1 line"></p>
-                                    <p class="line2 line"></p>
-                                    <p class="line2 line"></p>
-                                    <p class="line3 line"></p>
-                                    <p class="line4 line"></p>
-                                </div>
-                            </a>
-                        </div>
-                        
-                        <div class="product_name">
-                            <p>레터링 머그잔</p>
-                            <div class="heart_btn"><a href="#"></a></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product_img" href="#">
-                            <a href="#">
-                                <div>
-                                    <img src="../images/sub_goods/product_img5.png" alt="product">
-                                </div>
-                                <div class="box">
-                                    <p class="line1 line"></p>
-                                    <p class="line2 line"></p>
-                                    <p class="line2 line"></p>
-                                    <p class="line3 line"></p>
-                                    <p class="line4 line"></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="product_name">
-                            <p>패턴 텀블러</p>
-                            <div class="heart_btn"><a href="#"></a></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product_img" href="#">
-                            <a href="#">
-                                <div>
-                                    <img src="../images/sub_goods/product_img6.png" alt="product">
-                                </div>
-                                <div class="box">
-                                    <p class="line1 line"></p>
-                                    <p class="line2 line"></p>
-                                    <p class="line2 line"></p>
-                                    <p class="line3 line"></p>
-                                    <p class="line4 line"></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="product_name">
-                            <p>플레이어 에코백</p>
-                            <div class="heart_btn"><a href="#"></a></div>
-                        </div>
-                    </li>
-                </ul>
             </div>
+
         </div> <!--goods_f-->
 
         <div id="event"><!--event s-->
             <div class="event_text">
-                <h2><span>personal creator  event</span></h2>
+                <h2><span>personal creator event</span></h2>
                 <p>나만의 플레이리스트 공유하고 굿즈 증정의 기회까지,
-                    <br>뮤플의 크리에이터가 되어 보세요!</p>
-                    <ul class="btn">
-                        <li><a href="#">자세히 보기</a></li>
-                        <li><a href="#">응모하기</a></li>
-                    </ul>
+                    <br>뮤플의 크리에이터가 되어 보세요!
+                </p>
+                <ul class="btn">
+                    <li><a href="javascript:return false;">자세히 보기</a></li>
+                    <li><a href="javascript:return false;">응모하기</a></li>
+                </ul>
             </div>
         </div><!--event f-->
 
@@ -266,14 +275,14 @@
                     </p>
                 </div>
                 <ul class="sns">
-                    <li><a href="#"><img src="../images/sns_facebook.png" alt="sns"></a></li>
-                    <li><a href="#"><img src="../images/sns_instar.png" alt="sns"></a></li>
-                    <li><a href="#"><img src="../images/sns_twitter.png" alt="sns"></a></li>
-                    <li><a href="#"><img src="../images/sns_youtube.png" alt="sns"></a></li>
+                    <li><a href="javascript:return false;"><img src="../images/sns_facebook.png" alt="sns"></a></li>
+                    <li><a href="javascript:return false;"><img src="../images/sns_instar.png" alt="sns"></a></li>
+                    <li><a href="javascript:return false;"><img src="../images/sns_twitter.png" alt="sns"></a></li>
+                    <li><a href="javascript:return false;"><img src="../images/sns_youtube.png" alt="sns"></a></li>
                 </ul>
             </div>
         </div> <!--footer f-->
-        
+
         <!-- js -->
         <script>
             $(window).scroll(function () {
@@ -283,6 +292,11 @@
                     $('.header_s').removeClass('header_scroll')
                 }
             })
+        </script>
+        <!-- aos js -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
         </script>
     </div>
 
