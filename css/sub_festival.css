@@ -1,0 +1,301 @@
+@charset "utf-8";
+
+/* webfont */
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+select {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    font-family: 'S-CoreDream-3Light';
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    background-color: #000;
+}
+
+#wrap {
+    min-width: 1360px;
+}
+
+
+/* mainbanner header */
+.banner_text{
+    position: absolute;
+    width: 1320px;
+    left: 50%;
+    margin-left: -660px;
+    margin-top: 150px;
+    top: 0;
+    z-index: 2;
+    text-align: right;
+}
+span{
+    font-family: 'Nulshock', sans-serif;
+}
+.banner_text p{
+    margin-top: 600px;
+    line-height: 35px;
+    text-align: center;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+
+/* festival */
+#festival{
+    height: 1500px;
+    background: url(../images/sub_festival/festival_info_bg.png) no-repeat center top;
+}
+.inner_festival{
+    width: 1320px;
+    margin: 0 auto;
+}
+.title{
+    position: relative;
+}
+.f_logo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 744px;
+    height: 800px;
+    z-index: 0;
+    background: url(../images/sub_festival/festival_logo.png) no-repeat left top 20px;
+}
+
+.title h1{
+    text-align: right;
+    font-family: 'Nulshock', sans-serif;
+    font-size: 100px;
+    line-height: 130px;
+}
+.color1{
+    padding-top: 370px;
+    text-shadow: 0px 3px 20px #2779E5;
+}
+.color2{
+    text-shadow: 0px 3px 20px #673FE1;
+}
+.color3{
+    text-shadow: 0px 3px 20px #AA2BD6;
+}
+.f_info{
+    margin-top: 160px;
+    height: 330px;
+    position: relative;
+}
+.f_btn{
+    position: absolute;
+    left: 170px;
+    top: 80px;
+    z-index: 10;
+}
+.f_btn li a{
+    display: inline-block;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+}
+.f_btn li:nth-child(1) a{
+    border: #3D57FF 3px solid;
+    color: #3D57FF;
+    margin-bottom: 50px;
+}
+.f_btn li:nth-child(2) a{
+    border: #7C32C5 3px solid;
+    color: #7C32C5;
+}
+/* 버튼 호버시 색 변경 */
+.f_btn li:nth-child(1) a:hover{
+    background-color: #3D57FF;
+    color: #fff;
+}
+.f_btn li:nth-child(2) a:hover{
+    background-color: #7C32C5;
+    color: #fff;
+}
+.f_info .f_table{
+    /* position으로 올리기 */
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 11;
+    width: 660px;
+    height: 330px;
+    font-size: 22px;
+}
+.table_bg{
+    /* position으로 table 밑에 블렌드 배경 깔기 */
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    background-color: rgba(122, 32, 148, 0.82);
+    mix-blend-mode: multiply;
+    width: 660px;
+    height: 330px;
+}
+.f_table th{
+    width: 35%;
+}
+
+
+
+/* lineup */
+#lineup{
+    background: url(../images/sub_festival/lineup_bg.png) no-repeat center top;
+    text-align: center;
+    padding: 150px 0;
+    height: 2178px;
+    box-sizing: border-box;
+}
+.inner_lineup{
+    width: 1320px;
+    margin: 0 auto;
+}
+.section_name{
+    font-size: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.artist li{
+    margin-right: 20px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.artist li:nth-child(3),
+.artist li:nth-child(5){
+    margin-right: 0px;
+}
+
+.text_wrap h3{
+    padding-top: 20px;
+    font-size: 24px;
+}
+.text_wrap p{
+    font-size: 16px;
+}
+
+.img_wrap{
+    width: 420px;
+    height: 310px;
+    position: relative;
+}
+.img_wrap img{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* 호버시 사진 변경 */
+.img_wrap .hover{
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.artist li:hover .hover{
+    opacity: 1;
+}
+
+
+
+/* ticket */
+#ticket{
+    height: 770px;
+    padding: 100px 0;
+    box-sizing: border-box;
+    background: url(../images/sub_festival/ticket_bg.png) no-repeat center top;
+}
+.inner_ticket{
+    width: 1320px;
+    margin: 0 auto;
+}
+.order_img img{
+    display: block;
+}
+.order li{
+    float: left;
+    margin-right: 13px;
+}
+.order li:nth-child(4){
+    margin-right: 0;
+}
+/* 예매하기 버튼 position으로 올리기 */
+.order li:nth-child(1){
+    position: relative;
+}
+.buy{
+    position: absolute;
+    left: 50%;
+    margin-left: -91px;
+    top: 120px;
+}
+
+
+/* FAQ */
+#faq{
+    width: 1320px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.faqs li{
+    margin-bottom: 30px;
+    border: 3px solid #d44581;
+    border-radius: 30px;
+}
+.q{
+    padding: 40px;
+}
+.text_info{
+    display: none;
+    padding: 40px;
+}
+.plus{
+    background: url(../images/sub_festival/plus.png) no-repeat right 40px top 35px;
+}
+.minus{
+    background: #d44581 url(../images/sub_festival/minus.png) no-repeat right 40px top 55px;
+}

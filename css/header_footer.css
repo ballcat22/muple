@@ -7,6 +7,7 @@
 }
 
 #main_banner_bg {
+    /* 가운데 보내는 포지션 */
     position: absolute;
     left: 50%;
     margin-left: -960px;
@@ -15,6 +16,7 @@
 }
 
 #header {
+    /* 상단 고정 */
     position: fixed;
     width: 100%;
     left: 0;
@@ -39,7 +41,7 @@
 
 .logo {
     float: left;
-    margin-right: 13px;
+    margin-right: 26px;
     padding-top: 31px;
 }
 
@@ -82,30 +84,28 @@
         transform: scale(1);
     }
 }
-
 .gnb {
     float: left;
     padding-top: 63px;
 }
-
 .gnb li {
     float: left;
-    width: 209px;
+    width: 264px;
     margin-right: 13px;
     text-align: center;
 }
-
+.gnb li:nth-child(4){
+    margin-right: 0;
+}
 .gnb li a {
     display: block;
     font-family: 'Nulshock', sans-serif;
     font-size: 20px;
     padding-bottom: 63px;
 }
-
 .gnb li a:hover {
     color: #d44581;
 }
-
 .on{
     color: #d44581;
 }
@@ -115,11 +115,9 @@
     width: 98px;
     padding-top: 59px;
 }
-
 .search a {
     text-align: center;
     display: block;
-
 }
 
 
