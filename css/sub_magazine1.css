@@ -150,18 +150,23 @@ body {
     width: 653px;
     margin: 0 auto;
 }
-.song_box{
+.song_wrap{
     width: 680px;
-    height: 94px;
-    padding: 13px;
-    box-sizing: border-box;
-    color: #fff;
     position: absolute;
     left: 50%;
     margin-left: -340px;
     bottom: 55px;
-    cursor: pointer;
 
+}
+
+.song_box{
+    height: 94px;
+    padding: 13px;
+    box-sizing: border-box;
+    color: #fff;
+   
+    cursor: pointer;
+    opacity: 1;
 }
 .color1{background-color: #d44581;}
 .song_box div{
@@ -189,6 +194,7 @@ body {
     height: 68px;
     position: relative;
 }
+
 /* play_btn 공통꾸미기 */
 /* 재생버튼 포지션으로 올려서 호버시 등장 */
 .play_btn{
@@ -297,7 +303,6 @@ body {
 .song_box2 div{
     float: left;
 }
-.color1{background-color: #d44581;}
 
 .song_list>li:nth-child(2){
     margin: 20px 0;
