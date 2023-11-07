@@ -84,6 +84,7 @@ span{
 /* festival */
 #festival{
     height: 1500px;
+    overflow: hidden;
     background: url(../images/sub_festival/festival_info_bg.png) no-repeat center top;
 }
 .inner_festival{
@@ -191,6 +192,7 @@ span{
     padding: 150px 0;
     height: 2178px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .inner_lineup{
     width: 1320px;
@@ -244,6 +246,7 @@ span{
 
 /* ticket */
 #ticket{
+    overflow: hidden;
     height: 770px;
     padding: 100px 0;
     box-sizing: border-box;

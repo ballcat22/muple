@@ -92,6 +92,7 @@ span{
 #collabo_banner{
     background: url(../images/sub_goods/collabo_bg.png) no-repeat center;
     height: 784px;
+    overflow: hidden;
 }
 .inner_collabo{
     width: 1320px;

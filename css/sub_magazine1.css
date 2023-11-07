@@ -59,6 +59,18 @@ body {
 }
 
 
+/* fixed */
+/* 나가기 버튼 우측 하단 고정 */
+.fixed{
+    position: fixed;
+    right:100px;
+    bottom:40px;
+    z-index: 100;
+  }
+  .fixed:hover{
+    opacity:0.8;
+  }
+
 /* title */
 #title{
     height: 312px;

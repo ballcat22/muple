@@ -267,7 +267,6 @@ span {
     position: relative;
     width: 100%;
     height: 100%;
-    /* background-color: orange; */
 }
 #slide2{
     position: absolute;
@@ -277,7 +276,6 @@ span {
     height: 380px;
     z-index: 10;
     overflow: hidden;
-    /* background-color: pink; */
 }
 
 
@@ -291,18 +289,7 @@ span {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* magazine_bg */
 #magazine_bg{
     height: 1000px;
     background: url(../images/sub_magazine/magazine_bg.png) no-repeat center top 50px;

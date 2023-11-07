@@ -88,6 +88,7 @@ span{
     width: 1320px;
     margin: 0 auto;
     padding: 100px 0;
+    overflow: hidden;
 }
 .section_name{
     text-align: center;
@@ -95,11 +96,9 @@ span{
 }
 .main_logo{
     height: 430px;
-    /* background: url(../images/sub_about/box.png) top center; */
     border: #d44581 solid 18px;
     border-radius: 50px;
     box-shadow: 0 0 40px rgba(212, 69, 129, 0.8) ;
-    /* box-shadow: 0 0 40px rgba(212, 69, 129, 0.8) inset; */
 }
 .main_logo .img_wrap{
     float: left;
@@ -140,6 +139,7 @@ span{
 
 /* brand_name */
 #brand_name{
+    overflow: hidden;
     width: 1320px;
     margin: 0 auto;
     padding: 100px 0;
@@ -192,6 +192,7 @@ span{
     margin: 0 auto;
     padding: 100px 0;
     text-align: center;
+    overflow: hidden;
 }
 #brand_concept h3{
     font-size: 24px;
