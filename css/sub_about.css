@@ -85,10 +85,12 @@ span{
 
 /* brand_logo */
 #brand_logo{
+    overflow: hidden;
+}
+#inner_brand_logo{
     width: 1320px;
     margin: 0 auto;
     padding: 100px 0;
-    overflow: hidden;
 }
 .section_name{
     text-align: center;
@@ -188,11 +190,13 @@ span{
 
 /* brand_concept */
 #brand_concept{
+    overflow: hidden;
+}
+#inner_brand_concept{
     width: 1320px;
     margin: 0 auto;
     padding: 100px 0;
     text-align: center;
-    overflow: hidden;
 }
 #brand_concept h3{
     font-size: 24px;
@@ -296,4 +300,3 @@ span{
 .hover4:hover{
     opacity: 1;
 }
-

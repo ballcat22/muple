@@ -98,6 +98,7 @@ body {
     width: 320px;
     margin-right: 13px;
     position: relative;
+    height: 450px;
 }
 
 .mag_box li:nth-child(4) {
